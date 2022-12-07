@@ -33,6 +33,7 @@ const NavBar=()=> {
                 })
             }
         </ul>
+        
     </div>
   )
 }
