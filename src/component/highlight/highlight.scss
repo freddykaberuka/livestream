@@ -1,0 +1,19 @@
+.highlight{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+    .team-logo{
+        display: flex;
+        .vs{
+            p{
+                font-size: 52px;
+            }
+        }
+        .home-team,
+        .away-team {
+            img{
+                width: 150px;
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Highlight from '../highlight/Highlight'
 import Header from './Header'
 import Header2 from './Header2'
 
@@ -37,6 +38,7 @@ const NavBar=()=> {
         </ul>
         <Header />
         <Header2 />
+        <Highlight />
     </div>
   )
 }
