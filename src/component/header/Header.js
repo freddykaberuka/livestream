@@ -1,13 +1,14 @@
 import React from 'react'
-import image1 from '../assets/logo.svg';
+import image1 from '../../assets/logo.svg';
+import profile from '../../assets/account.jpeg'
 import './header.scss'
 
-const Navigation=()=> {
+const Header=()=> {
   return (
     <div className='header'>
       <div className="logo">
-        <img src={image1} alt=""/>
-        <p>Sign In</p>
+        <img src={image1} alt="" id='logo-image'/>
+        <div className='login'><img src={profile} alt='login'id='header-login'/><p>Sign In</p></div>
       </div>
       <div className="nav-links">
         <ul>
@@ -27,4 +28,4 @@ const Navigation=()=> {
   )
 }
 
-export default Navigation
+export default Header

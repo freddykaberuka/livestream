@@ -1,0 +1,58 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px #000 solid;
+    .logo{
+        display: flex;
+        padding: 0 20px;
+        #logo-image{
+            width: 150px;
+            height: 50px;
+            padding: 0 20px;
+        }
+        #header-login{
+            width: 30px;
+            height: 30px;
+            padding: 10px 10px;
+        }
+        .login{
+            display: flex;
+        }
+    }
+    .nav-links{
+        ul {
+            display: flex;
+            li{
+                padding: 0 20px;
+                list-style: none;
+            }
+        }
+    }
+    .nav-search {
+        padding: 10px;
+        input{
+            padding: 10px;
+            border-radius: 6px;
+        }
+    }
+}
+.header2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px #000 solid;
+    .player-img{
+        padding: 10px 40px;
+        img{
+            width: 200px;
+        }
+    }
+    .nav-links2{
+        ul{
+            display: flex;
+            li{
+                padding: 0 10px;
+                list-style: none;
+            }
+        }
+    }
+}

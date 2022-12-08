@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Navigation from './Navigation'
+import Header from './Header'
+import Header2 from './Header2'
 
 const NavBar=()=> {
     const links = [
@@ -34,7 +35,8 @@ const NavBar=()=> {
                 })
             }
         </ul>
-        <Navigation />
+        <Header />
+        <Header2 />
     </div>
   )
 }
